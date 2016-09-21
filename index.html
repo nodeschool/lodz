@@ -2,19 +2,19 @@
 <html>
 <title>NodeSchool Lodz</title>
 <meta charset="utf-8">
-
-
 <xmp theme="cerulean" style="display:none;">
 
-<img src="gft-logo.png" style="display:inline;float:right"/>
-<div style="clear:both;"></div>
+<div class="header">
+  <img src="nodeschool.png" style="width: 250px; height: 250px;" />
+  <img src="gft-logo.png" style="width: 300px; height: 55px;" />
+</div>
+
+
+#NodeSchool Lodz
 
 ## Idea
 
-
-
 NodeSchool is an open project of free workshops organized to help people learn Node.js. It is aimed both for programmers who know nothing about Node.js and for Node.js programmers who want to learn new things. You can read more at the <a href="http://nodeschool.io" target="_blank">official NodeSchool website</a>.
-
 
 NodeSchool Lodz was started by <a href="http://goodylabs.com" target="_blank">goodylabs</a> and is supported by GFT, but it's an open initiative. If you want to help, contact <a href="mailto:adamsunday@gmail.com">Adam</a>.
 
@@ -37,15 +37,33 @@ Agenda:
 
 You can find NodeSchool Lodz on <a href="https://twitter.com/nodeschool_lodz" target="_blank">Twitter</a> and <a href="https://www.facebook.com/nodeschoollodz" target="_blank">Facebook</a>.
 
-<img src="nodeschool.png" height="300px" width="300px" style="display:block;margin-left:auto;margin-right:auto"/>
-<img src="gft-logo.png" style="display:block;margin-left:auto;margin-right:auto"/>
-
 </xmp>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 <style>
   body {
     font-size: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+  .header {
+    background-image: url('header.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .logo-nodeschool {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .header img {
+      margin: auto;
+      display: block;
+    }
   }
 </style>
 </html>
