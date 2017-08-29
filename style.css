@@ -1,0 +1,92 @@
+  body {
+    font-size: 20px;
+    padding-top: 0;
+  }
+
+  .header {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 20px;
+    text-align: center;
+  }
+
+  .card {
+    background: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 0 20px 15px;
+  }
+
+  .card p {
+      margin-bottom: 10px;
+  }
+
+  .logo-comarch {
+    height: 35px;
+    margin: 0 0 0 40px;
+  }
+
+  .logo-nodeschool {
+    width: 250px;
+    height: 250px;
+  }
+
+  .support {
+    align-items: center;
+    background: #eee;
+    color: #888;
+    display: flex;
+    font-size: .8em;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding: 50px 30px;
+  }
+
+  hr.small {
+    border-top-color: #888;
+    max-width: 100px;
+    margin: 60px auto;
+  }
+
+  p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0 auto 20px;
+  }
+
+  li {
+      margin-bottom: 10px;
+  }
+
+  .social {
+    align-items: center;
+    background: #eee;
+    color: #888;
+    display: flex;
+    font-size: 4em;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 40px 20px;
+  }
+
+  .social a+a {
+      margin-left: 60px;
+  }
+
+  .footer {
+    color: #aaa;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .card {
+      margin-top: 0;
+    }
+  }
