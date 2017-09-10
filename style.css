@@ -101,4 +101,21 @@
     .card {
       margin-top: 0;
     }
+
+    .support {
+      display: block;
+    }
+
+    .support span {
+      clear: both;
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+
+    .support img {
+      clear: both;
+      display: block;
+      margin: 40px auto 0 auto;
+    }
   }
