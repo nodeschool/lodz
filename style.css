@@ -15,17 +15,24 @@
   .card {
     background: #fff;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0 20px 15px;
   }
 
   .card p {
+      font-size: 0.9em;
       margin-bottom: 10px;
+      text-align: left;
+  }
+
+  .logo-binarapps {
+    width: 250px;
+    transform: translateY(2px);
   }
 
   .logo-comarch {
     height: 35px;
-    margin: 0 0 0 40px;
+    transform: translateY(0px);
   }
 
   .logo-nodeschool {
@@ -42,6 +49,10 @@
     justify-content: center;
     margin-bottom: 60px;
     padding: 50px 30px;
+  }
+
+  .support img {
+    margin-left: 40px;
   }
 
   hr.small {
