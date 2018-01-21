@@ -1,7 +1,7 @@
   body {
     font-size: 20px;
     padding-top: 0;
-    background: #eee;
+    background: #fff;
     height: 100%;
   }
 
@@ -26,18 +26,16 @@
       margin-bottom: 10px;
   }
 
-  .logo-4devlodz {
-    width: 243px;
+  .logo-sii {
+    height: 100px;
   }
 
-  .logo-binarapps {
-    width: 250px;
-    transform: translateY(2px);
+  .logo-symentis {
+    height: 65px;
   }
 
-  .logo-comarch {
-    height: 35px;
-    transform: translateY(0px);
+  .logo-vistex {
+    height: 60px;
   }
 
   .logo-nodeschool {
@@ -53,7 +51,7 @@
     font-size: .8em;
     justify-content: center;
     margin-bottom: 60px;
-    padding: 50px 30px;
+    padding: 30px 20px;
   }
 
   .support img {
