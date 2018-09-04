@@ -25,17 +25,13 @@
       font-size: 0.9em;
       margin-bottom: 10px;
   }
-
+  
   .logo-sii {
     height: 100px;
   }
-
-  .logo-symentis {
-    height: 65px;
-  }
-
-  .logo-vistex {
-    height: 60px;
+  
+  .logo-4developers {
+    height: 120px;
   }
 
   .logo-nodeschool {
@@ -51,7 +47,7 @@
     font-size: .8em;
     justify-content: center;
     margin-bottom: 60px;
-    padding: 30px 20px;
+    padding: 20px 20px;
   }
 
   .support img {
